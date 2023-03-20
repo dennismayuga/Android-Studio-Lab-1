@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MathOperationProject</string>
+    <string name="text_header_text_view">Math Operations</string>
+    <string name="input_string_one_edit_text">Please Enter X</string>
+    <string name="input_string_two_edit_text">Please Enter Y</string>
+    <string name="addition_text_view">Addition</string>
+    <string name="subtraction_text_view">Subtraction</string>
+    <string name="product_text_view">Product</string>
+    <string name="divide_text_view">Divide</string>
+    <string name="button">CLICK TO CALCULATE</string>
+
+
+</resources>

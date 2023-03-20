@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:minHeight="48dp"
+        android:text="@string/input_string_one_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/textHeader"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="@+id/textHeader"
+        app:layout_constraintTop_toBottomOf="@+id/textHeader" />
+
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:minHeight="48dp"
+        android:text="@string/input_string_two_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/x"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/x"
+        app:layout_constraintTop_toBottomOf="@+id/x"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_header_text_view"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#8039FF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <TextView
+        android:id="@+id/addition"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/addition_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/y"
+        app:layout_constraintStart_toStartOf="@+id/y"
+        app:layout_constraintTop_toBottomOf="@+id/y" />
+
+    <TextView
+        android:id="@+id/subtraction"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/subtraction_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/addition"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/addition"
+        app:layout_constraintTop_toBottomOf="@+id/addition" />
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/product_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/subtraction"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/subtraction"
+        app:layout_constraintTop_toBottomOf="@+id/subtraction" />
+
+    <TextView
+        android:id="@+id/divide"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/divide_text_view"
+        app:layout_constraintEnd_toEndOf="@+id/product"
+        app:layout_constraintStart_toStartOf="@+id/product"
+        app:layout_constraintTop_toBottomOf="@+id/product" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/button"
+        app:layout_constraintEnd_toEndOf="@+id/divide"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/divide"
+        app:layout_constraintTop_toBottomOf="@+id/divide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

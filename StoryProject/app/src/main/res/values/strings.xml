@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StoryProject</string>
+    <string name="name_text_view">Enter Name</string>
+    <string name="age_text_view">Enter Age</string>
+    <string name="city_text_view">Enter City</string>
+    <string name="college_name_text_view">Enter College Name</string>
+    <string name="profession_text_view">Enter Profession</string>
+    <string name="animal_type_text_view">Enter Animal Type</string>
+    <string name="pet_name_text_view">Enter Pet Name</string>
+    <string name="story_button">Display Story</string>
+    <string name='story_text_view'>Story:</string>
+
+</resources>

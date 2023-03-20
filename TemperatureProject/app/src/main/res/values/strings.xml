@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TemperatureProject</string>
+    <string name="header_text_view">Fahrenheit to Celsius Converter</string>
+    <string name="input_plain_text">Enter Fahrenheit Value</string>
+    <string name="output_text_view">Conversion: </string>
+    <string name="convert_button">CONVERT</string>
+</resources>
